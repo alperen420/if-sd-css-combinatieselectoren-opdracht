@@ -1,33 +1,53 @@
 /* Selecteer alle HTML-elementen en reset de tussen ruimtes naar 0
 Zie universele selector op Pagina 212 */
 *{
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* Selecteer de body element en geef het de achtergrond kleur aliceblue
 zie typeselector op Pagina 211 */
-
+body{
+    background: aliceblue
+}
 
 /* Selecter de header element welke direct onder de body zit met een kindselector 
 geef het de achtergrond kleur darkgoldenrod en als text-kleur wheat 
 geef de header een padding van 10px */
 
+header{
+background-color: darkgoldenrod;
+color:wheat;
+padding: 10px;
+}
 
 /* Selecteer de h1-element en verander de lettertype naar monospace
 verander óók lettergrootte met font-size */
 
+h1{
+    font-family: monospace;
+    font-size:large;
+}
 
 /* Selecteer headings h2 t/m h6 en geef het de lettertype monospace; */
+h2,h3,h4,h5,h6{
+    font-family: monospace;
+}
 
 
 /* selecteer alle P-elementen en geef het de lettertype segoe UI */
 
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 /* Selecteer alle headings, paragraven en article's 
 en geef het 10px margin en padding.
 (zie pagina 220) */
-
+head,p,article{
+    margin: 10px;
+    padding: 10px;
+}
 
 /* selecteer de nav-element met de klasse links en voeg daar de volgende 
 css aan toe 
